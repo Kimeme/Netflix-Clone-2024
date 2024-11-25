@@ -1,13 +1,15 @@
 import React from 'react'
 import Header from '../../Components/Header/Header'
 import Footer from '../../Components/Footer/Footer.jsx'
+import Banner from '../../Components/Banner/Banner.jsx'
 
 
 const Home = () => {
   return (
     <>
-          <Header />
-          <Footer/>
+         <Header />
+         <Banner/>
+         <Footer/>
     </>
   )
 } 
